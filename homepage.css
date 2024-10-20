@@ -1,0 +1,40 @@
+.images{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+.i1,.i2,.i3{
+    width: 33%;
+}
+img{
+    object-fit: contain;
+    width: auto;
+    height: 300px;
+    border-radius: 7px;
+}
+.users{
+    margin-top: 30px;
+}
+.pfp img{
+    height: 250px;
+    border-radius: 7px;
+}
+.cards{
+    display: flex;
+    flex-flow: row;
+    gap: 25px;
+    height: 470px;
+}
+.card1,.card2,.card3{
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    border-radius: 7px;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    width: 350px;
+    margin: 20px;
+}
